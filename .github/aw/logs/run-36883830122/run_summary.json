@@ -1,0 +1,239 @@
+{
+  "cli_version": "v0.89.21",
+  "run_id": 36883830122,
+  "processed_at": "2026-10-01T18:23:31.5608566+03:00",
+  "run": {
+    "databaseId": 36883830122,
+    "number": 1,
+    "url": "https://github.com/appworldgap/agentic_workflows/actions/runs/36883830122",
+    "status": "in_progress",
+    "conclusion": "",
+    "workflowName": "Daily Repo Status Report",
+    "workflowPath": ".github/workflows/daily-repo-status.lock.yml",
+    "createdAt": "2026-10-01T15:23:08Z",
+    "startedAt": "2026-10-01T15:23:08Z",
+    "updatedAt": "2026-10-01T15:23:16Z",
+    "event": "workflow_dispatch",
+    "headBranch": "add-workflow-repo-status-3288",
+    "headSha": "53b8648d1c0286c6f8351eb6f3aeec3df8c590a0",
+    "displayTitle": "Daily Repo Status Report",
+    "attempt": 1,
+    "repository": "appworldgap/agentic_workflows",
+    "actor": "appworldgap",
+    "Duration": 8000000000,
+    "ActionMinutes": 0,
+    "TokenUsage": 0,
+    "Turns": 0,
+    "TurnsAvailable": false,
+    "ErrorCount": 0,
+    "WarningCount": 0,
+    "MissingToolCount": 0,
+    "MissingDataCount": 0,
+    "NoopCount": 0,
+    "AvgTimeBetweenTurns": 0,
+    "LogsPath": "C:\\Users\\AronPollner\\Documents\\agentic_workflows\\.github\\aw\\logs\\run-36883830122",
+    "DownloadDuration": 0,
+    "DownloadSizeBytes": 0
+  },
+  "metrics": {
+    "TokenUsage": 0,
+    "EstimatedCost": 0,
+    "Turns": 0,
+    "ToolCalls": null,
+    "ToolSequences": null,
+    "AvgTimeBetweenTurns": 0,
+    "MaxTimeBetweenTurns": 0,
+    "MedianTimeBetweenTurns": 0,
+    "StdDevTimeBetweenTurns": 0
+  },
+  "task_domain": {
+    "name": "research",
+    "label": "Research",
+    "reason": "Workflow naming and instructions suggest exploratory analysis or reporting."
+  },
+  "behavior_fingerprint": {
+    "execution_style": "directed",
+    "tool_breadth": "narrow",
+    "actuation_style": "read_only",
+    "resource_profile": "lean",
+    "dispatch_mode": "standalone",
+    "agentic_fraction": 0
+  },
+  "access_analysis": null,
+  "firewall_analysis": null,
+  "redacted_domains_analysis": null,
+  "missing_tools": null,
+  "missing_data": null,
+  "noops": null,
+  "mcp_failures": null,
+  "job_details": [
+    {
+      "id": 110442003672,
+      "run_id": 36883830122,
+      "run_url": "https://api.github.com/repos/appworldgap/agentic_workflows/actions/runs/36883830122",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOU3VE6c8AAAAZtts82A",
+      "head_sha": "53b8648d1c0286c6f8351eb6f3aeec3df8c590a0",
+      "url": "https://api.github.com/repos/appworldgap/agentic_workflows/actions/jobs/110442003672",
+      "html_url": "https://github.com/appworldgap/agentic_workflows/actions/runs/36883830122/job/110442003672",
+      "status": "in_progress",
+      "conclusion": "",
+      "created_at": "2026-10-01T15:23:11Z",
+      "started_at": "2026-10-01T15:23:16Z",
+      "name": "activation",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-10-01T15:23:18Z",
+          "completed_at": "2026-10-01T15:23:22Z"
+        },
+        {
+          "name": "Setup Scripts",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-10-01T15:23:22Z",
+          "completed_at": "2026-10-01T15:23:27Z"
+        },
+        {
+          "name": "Mask OTLP telemetry headers",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-10-01T15:23:27Z",
+          "completed_at": "2026-10-01T15:23:27Z"
+        },
+        {
+          "name": "Generate agentic run info",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-10-01T15:23:27Z",
+          "completed_at": "2026-10-01T15:23:28Z"
+        },
+        {
+          "name": "Restore daily AIC scan observations",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2026-10-01T15:23:28Z",
+          "completed_at": "2026-10-01T15:23:28Z"
+        },
+        {
+          "name": "Check daily workflow token guardrail",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6,
+          "started_at": "2026-10-01T15:23:28Z",
+          "completed_at": "2026-10-01T15:23:28Z"
+        },
+        {
+          "name": "Publish daily AIC scan observations",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7,
+          "started_at": "2026-10-01T15:23:28Z",
+          "completed_at": "2026-10-01T15:23:29Z"
+        },
+        {
+          "name": "Check for OAuth tokens",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8,
+          "started_at": "2026-10-01T15:23:29Z",
+          "completed_at": "2026-10-01T15:23:29Z"
+        },
+        {
+          "name": "Checkout .github and .agents folders",
+          "status": "in_progress",
+          "number": 9,
+          "started_at": "2026-10-01T15:23:29Z"
+        },
+        {
+          "name": "Save agent config folders for base branch restoration",
+          "status": "pending",
+          "number": 10
+        },
+        {
+          "name": "Check workflow lock file",
+          "status": "pending",
+          "number": 11
+        },
+        {
+          "name": "Check compile-agentic version",
+          "status": "pending",
+          "number": 12
+        },
+        {
+          "name": "Log runtime features",
+          "status": "pending",
+          "number": 13
+        },
+        {
+          "name": "Create prompt with built-in context",
+          "status": "pending",
+          "number": 14
+        },
+        {
+          "name": "Interpolate variables and render templates",
+          "status": "pending",
+          "number": 15
+        },
+        {
+          "name": "Substitute placeholders",
+          "status": "pending",
+          "number": 16
+        },
+        {
+          "name": "Validate prompt placeholders",
+          "status": "pending",
+          "number": 17
+        },
+        {
+          "name": "Print prompt",
+          "status": "pending",
+          "number": 18
+        },
+        {
+          "name": "Upload info artifact",
+          "status": "pending",
+          "number": 19
+        },
+        {
+          "name": "Stage prompt files for artifact upload",
+          "status": "pending",
+          "number": 20
+        },
+        {
+          "name": "Upload activation artifact",
+          "status": "pending",
+          "number": 21
+        },
+        {
+          "name": "Post Checkout .github and .agents folders",
+          "status": "pending",
+          "number": 41
+        },
+        {
+          "name": "Post Setup Scripts",
+          "status": "pending",
+          "number": 42
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/appworldgap/agentic_workflows/check-runs/110442003672",
+      "labels": [
+        "ubuntu-slim"
+      ],
+      "runner_id": 1000029183,
+      "runner_name": "GitHub Actions 1000029183",
+      "runner_group_name": "GitHub Actions",
+      "workflow_name": "Daily Repo Status Report",
+      "head_branch": "add-workflow-repo-status-3288",
+      "Duration": 0
+    }
+  ],
+  "artifacts_list": null
+}

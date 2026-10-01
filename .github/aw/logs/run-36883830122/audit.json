@@ -1,0 +1,233 @@
+{
+  "schema_version": 2,
+  "cache_source": "full",
+  "overview": {
+    "run_id": 36883830122,
+    "workflow_name": "Daily Repo Status Report",
+    "status": "in_progress",
+    "created_at": "2026-10-01T15:23:08Z",
+    "started_at": "2026-10-01T15:23:08Z",
+    "updated_at": "2026-10-01T15:23:16Z",
+    "duration": "8.0s",
+    "event": "workflow_dispatch",
+    "branch": "add-workflow-repo-status-3288",
+    "url": "https://github.com/appworldgap/agentic_workflows/actions/runs/36883830122",
+    "logs_path": "C:\\Users\\AronPollner\\Documents\\agentic_workflows\\.github\\aw\\logs\\run-36883830122"
+  },
+  "comparison": {
+    "baseline_found": false
+  },
+  "task_domain": {
+    "name": "research",
+    "label": "Research",
+    "reason": "Workflow naming and instructions suggest exploratory analysis or reporting."
+  },
+  "behavior_fingerprint": {
+    "execution_style": "directed",
+    "tool_breadth": "narrow",
+    "actuation_style": "read_only",
+    "resource_profile": "lean",
+    "dispatch_mode": "standalone",
+    "agentic_fraction": 0
+  },
+  "metrics": {
+    "action_minutes": 1,
+    "error_count": 0,
+    "warning_count": 0
+  },
+  "observability_insights": [
+    {
+      "category": "execution",
+      "severity": "info",
+      "title": "Directed execution path",
+      "summary": "The run remained relatively linear with 0 turns and 0 tool types.",
+      "evidence": "turns=0 tool_types=0"
+    },
+    {
+      "category": "actuation",
+      "severity": "info",
+      "title": "Read-only posture observed",
+      "summary": "The workflow stayed in an analysis posture and did not emit any GitHub write actions.",
+      "evidence": "created_items=0 safe_items=0"
+    },
+    {
+      "category": "execution",
+      "severity": "info",
+      "title": "Log template patterns mined",
+      "summary": "Analysis identified 2 distinct event templates across 6 pipeline stages from 1 events.",
+      "evidence": "finish=1 plan=1"
+    },
+    {
+      "category": "execution",
+      "severity": "info",
+      "title": "Agent stage sequence",
+      "summary": "The observed pipeline stage sequence for this run.",
+      "evidence": "finish"
+    }
+  ],
+  "performance_metrics": {},
+  "session_analysis": {
+    "wall_time": "8.0s",
+    "timeout_detected": false
+  },
+  "jobs": [
+    {
+      "name": "activation",
+      "status": "in_progress",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-10-01T15:23:18Z",
+          "completed_at": "2026-10-01T15:23:22Z"
+        },
+        {
+          "name": "Setup Scripts",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-10-01T15:23:22Z",
+          "completed_at": "2026-10-01T15:23:27Z"
+        },
+        {
+          "name": "Mask OTLP telemetry headers",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-10-01T15:23:27Z",
+          "completed_at": "2026-10-01T15:23:27Z"
+        },
+        {
+          "name": "Generate agentic run info",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-10-01T15:23:27Z",
+          "completed_at": "2026-10-01T15:23:28Z"
+        },
+        {
+          "name": "Restore daily AIC scan observations",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2026-10-01T15:23:28Z",
+          "completed_at": "2026-10-01T15:23:28Z"
+        },
+        {
+          "name": "Check daily workflow token guardrail",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6,
+          "started_at": "2026-10-01T15:23:28Z",
+          "completed_at": "2026-10-01T15:23:28Z"
+        },
+        {
+          "name": "Publish daily AIC scan observations",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7,
+          "started_at": "2026-10-01T15:23:28Z",
+          "completed_at": "2026-10-01T15:23:29Z"
+        },
+        {
+          "name": "Check for OAuth tokens",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8,
+          "started_at": "2026-10-01T15:23:29Z",
+          "completed_at": "2026-10-01T15:23:29Z"
+        },
+        {
+          "name": "Checkout .github and .agents folders",
+          "status": "in_progress",
+          "number": 9,
+          "started_at": "2026-10-01T15:23:29Z"
+        },
+        {
+          "name": "Save agent config folders for base branch restoration",
+          "status": "pending",
+          "number": 10
+        },
+        {
+          "name": "Check workflow lock file",
+          "status": "pending",
+          "number": 11
+        },
+        {
+          "name": "Check compile-agentic version",
+          "status": "pending",
+          "number": 12
+        },
+        {
+          "name": "Log runtime features",
+          "status": "pending",
+          "number": 13
+        },
+        {
+          "name": "Create prompt with built-in context",
+          "status": "pending",
+          "number": 14
+        },
+        {
+          "name": "Interpolate variables and render templates",
+          "status": "pending",
+          "number": 15
+        },
+        {
+          "name": "Substitute placeholders",
+          "status": "pending",
+          "number": 16
+        },
+        {
+          "name": "Validate prompt placeholders",
+          "status": "pending",
+          "number": 17
+        },
+        {
+          "name": "Print prompt",
+          "status": "pending",
+          "number": 18
+        },
+        {
+          "name": "Upload info artifact",
+          "status": "pending",
+          "number": 19
+        },
+        {
+          "name": "Stage prompt files for artifact upload",
+          "status": "pending",
+          "number": 20
+        },
+        {
+          "name": "Upload activation artifact",
+          "status": "pending",
+          "number": 21
+        },
+        {
+          "name": "Post Checkout .github and .agents folders",
+          "status": "pending",
+          "number": 41
+        },
+        {
+          "name": "Post Setup Scripts",
+          "status": "pending",
+          "number": 42
+        }
+      ]
+    }
+  ],
+  "downloaded_files": [
+    {
+      "path": "C:\\Users\\AronPollner\\Documents\\agentic_workflows\\.github\\aw\\logs\\run-36883830122\\jobs.json",
+      "size": 4252,
+      "description": "JSON data file"
+    },
+    {
+      "path": "C:\\Users\\AronPollner\\Documents\\agentic_workflows\\.github\\aw\\logs\\run-36883830122\\run_summary.json",
+      "size": 7274,
+      "description": "Cached summary of workflow run analysis"
+    }
+  ]
+}
