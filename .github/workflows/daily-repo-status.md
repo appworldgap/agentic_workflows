@@ -6,8 +6,6 @@ permissions:
   contents: read
   issues: read
 tools:
-  github:
-    toolsets: [default]
   web-fetch: 
 network:
   allowed:
