@@ -1,0 +1,85 @@
+{
+  "schema_version": 2,
+  "cache_source": "full",
+  "overview": {
+    "run_id": 36885568001,
+    "workflow_name": "Instructions",
+    "status": "pending",
+    "created_at": "2026-10-01T15:36:24Z",
+    "started_at": "2026-10-01T15:36:24Z",
+    "updated_at": "2026-10-01T15:36:28Z",
+    "duration": "4.0s",
+    "event": "workflow_dispatch",
+    "branch": "add-workflow-repo-status-3288",
+    "url": "https://github.com/appworldgap/agentic_workflows/actions/runs/36885568001",
+    "logs_path": "C:\\Users\\AronPollner\\Documents\\agentic_workflows\\.github\\aw\\logs\\run-36885568001"
+  },
+  "comparison": {
+    "baseline_found": false
+  },
+  "task_domain": {
+    "name": "code_fix",
+    "label": "Code Fix",
+    "reason": "The workflow appears oriented toward code changes or pull request review."
+  },
+  "behavior_fingerprint": {
+    "execution_style": "directed",
+    "tool_breadth": "narrow",
+    "actuation_style": "read_only",
+    "resource_profile": "lean",
+    "dispatch_mode": "standalone",
+    "agentic_fraction": 0
+  },
+  "metrics": {
+    "action_minutes": 1,
+    "error_count": 0,
+    "warning_count": 0
+  },
+  "observability_insights": [
+    {
+      "category": "execution",
+      "severity": "info",
+      "title": "Directed execution path",
+      "summary": "The run remained relatively linear with 0 turns and 0 tool types.",
+      "evidence": "turns=0 tool_types=0"
+    },
+    {
+      "category": "actuation",
+      "severity": "info",
+      "title": "Read-only posture observed",
+      "summary": "The workflow stayed in an analysis posture and did not emit any GitHub write actions.",
+      "evidence": "created_items=0 safe_items=0"
+    },
+    {
+      "category": "execution",
+      "severity": "info",
+      "title": "Log template patterns mined",
+      "summary": "Analysis identified 2 distinct event templates across 6 pipeline stages from 1 events.",
+      "evidence": "finish=1 plan=1"
+    },
+    {
+      "category": "execution",
+      "severity": "info",
+      "title": "Agent stage sequence",
+      "summary": "The observed pipeline stage sequence for this run.",
+      "evidence": "finish"
+    }
+  ],
+  "performance_metrics": {},
+  "session_analysis": {
+    "wall_time": "4.0s",
+    "timeout_detected": false
+  },
+  "downloaded_files": [
+    {
+      "path": "C:\\Users\\AronPollner\\Documents\\agentic_workflows\\.github\\aw\\logs\\run-36885568001\\jobs.json",
+      "size": 29,
+      "description": "JSON data file"
+    },
+    {
+      "path": "C:\\Users\\AronPollner\\Documents\\agentic_workflows\\.github\\aw\\logs\\run-36885568001\\run_summary.json",
+      "size": 2118,
+      "description": "Cached summary of workflow run analysis"
+    }
+  ]
+}
