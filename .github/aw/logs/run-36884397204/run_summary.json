@@ -1,0 +1,286 @@
+{
+  "cli_version": "v0.89.21",
+  "run_id": 36884397204,
+  "processed_at": "2026-10-01T18:28:14.1793455+03:00",
+  "run": {
+    "databaseId": 36884397204,
+    "number": 2,
+    "url": "https://github.com/appworldgap/agentic_workflows/actions/runs/36884397204",
+    "status": "in_progress",
+    "conclusion": "",
+    "workflowName": "Instructions",
+    "workflowPath": ".github/workflows/daily-repo-status.lock.yml",
+    "createdAt": "2026-10-01T15:27:24Z",
+    "startedAt": "2026-10-01T15:27:24Z",
+    "updatedAt": "2026-10-01T15:28:06Z",
+    "event": "workflow_dispatch",
+    "headBranch": "add-workflow-repo-status-3288",
+    "headSha": "cb3d67a346892a1c26b6b960d9a16a0ac4ec809f",
+    "displayTitle": "Instructions",
+    "attempt": 1,
+    "repository": "appworldgap/agentic_workflows",
+    "actor": "appworldgap",
+    "Duration": 42000000000,
+    "ActionMinutes": 0,
+    "TokenUsage": 0,
+    "Turns": 0,
+    "TurnsAvailable": false,
+    "ErrorCount": 0,
+    "WarningCount": 0,
+    "MissingToolCount": 0,
+    "MissingDataCount": 0,
+    "NoopCount": 0,
+    "AvgTimeBetweenTurns": 0,
+    "LogsPath": "C:\\Users\\AronPollner\\Documents\\agentic_workflows\\.github\\aw\\logs\\run-36884397204",
+    "DownloadDuration": 0,
+    "DownloadSizeBytes": 0
+  },
+  "metrics": {
+    "TokenUsage": 0,
+    "EstimatedCost": 0,
+    "Turns": 0,
+    "ToolCalls": null,
+    "ToolSequences": null,
+    "AvgTimeBetweenTurns": 0,
+    "MaxTimeBetweenTurns": 0,
+    "MedianTimeBetweenTurns": 0,
+    "StdDevTimeBetweenTurns": 0
+  },
+  "task_domain": {
+    "name": "code_fix",
+    "label": "Code Fix",
+    "reason": "The workflow appears oriented toward code changes or pull request review."
+  },
+  "behavior_fingerprint": {
+    "execution_style": "directed",
+    "tool_breadth": "narrow",
+    "actuation_style": "read_only",
+    "resource_profile": "lean",
+    "dispatch_mode": "standalone",
+    "agentic_fraction": 0
+  },
+  "access_analysis": null,
+  "firewall_analysis": null,
+  "redacted_domains_analysis": null,
+  "missing_tools": null,
+  "missing_data": null,
+  "noops": null,
+  "mcp_failures": null,
+  "job_details": [
+    {
+      "id": 110443895749,
+      "run_id": 36884397204,
+      "run_url": "https://api.github.com/repos/appworldgap/agentic_workflows/actions/runs/36884397204",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOU3VE6c8AAAAZtvgbxQ",
+      "head_sha": "cb3d67a346892a1c26b6b960d9a16a0ac4ec809f",
+      "url": "https://api.github.com/repos/appworldgap/agentic_workflows/actions/jobs/110443895749",
+      "html_url": "https://github.com/appworldgap/agentic_workflows/actions/runs/36884397204/job/110443895749",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-10-01T15:27:27Z",
+      "started_at": "2026-10-01T15:27:34Z",
+      "completed_at": "2026-10-01T15:27:43Z",
+      "name": "pre_activation",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-10-01T15:27:36Z",
+          "completed_at": "2026-10-01T15:27:38Z"
+        },
+        {
+          "name": "Setup Scripts",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-10-01T15:27:38Z",
+          "completed_at": "2026-10-01T15:27:40Z"
+        },
+        {
+          "name": "Check team membership for workflow",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-10-01T15:27:40Z",
+          "completed_at": "2026-10-01T15:27:41Z"
+        },
+        {
+          "name": "Post Setup Scripts",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6,
+          "started_at": "2026-10-01T15:27:41Z",
+          "completed_at": "2026-10-01T15:27:41Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7,
+          "started_at": "2026-10-01T15:27:41Z",
+          "completed_at": "2026-10-01T15:27:41Z"
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/appworldgap/agentic_workflows/check-runs/110443895749",
+      "labels": [
+        "ubuntu-slim"
+      ],
+      "runner_id": 1000029188,
+      "runner_name": "GitHub Actions 1000029188",
+      "runner_group_name": "GitHub Actions",
+      "workflow_name": "Instructions",
+      "head_branch": "add-workflow-repo-status-3288",
+      "Duration": 9000000000
+    },
+    {
+      "id": 110444013432,
+      "run_id": 36884397204,
+      "run_url": "https://api.github.com/repos/appworldgap/agentic_workflows/actions/runs/36884397204",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOU3VE6c8AAAAZtvnneA",
+      "head_sha": "cb3d67a346892a1c26b6b960d9a16a0ac4ec809f",
+      "url": "https://api.github.com/repos/appworldgap/agentic_workflows/actions/jobs/110444013432",
+      "html_url": "https://github.com/appworldgap/agentic_workflows/actions/runs/36884397204/job/110444013432",
+      "status": "in_progress",
+      "conclusion": "",
+      "created_at": "2026-10-01T15:27:43Z",
+      "started_at": "2026-10-01T15:28:05Z",
+      "name": "activation",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-10-01T15:28:07Z",
+          "completed_at": "2026-10-01T15:28:11Z"
+        },
+        {
+          "name": "Setup Scripts",
+          "status": "in_progress",
+          "number": 2,
+          "started_at": "2026-10-01T15:28:11Z"
+        },
+        {
+          "name": "Mask OTLP telemetry headers",
+          "status": "pending",
+          "number": 3
+        },
+        {
+          "name": "Generate agentic run info",
+          "status": "pending",
+          "number": 4
+        },
+        {
+          "name": "Restore daily AIC scan observations",
+          "status": "pending",
+          "number": 5
+        },
+        {
+          "name": "Check daily workflow token guardrail",
+          "status": "pending",
+          "number": 6
+        },
+        {
+          "name": "Publish daily AIC scan observations",
+          "status": "pending",
+          "number": 7
+        },
+        {
+          "name": "Validate COPILOT_GITHUB_TOKEN secret",
+          "status": "pending",
+          "number": 8
+        },
+        {
+          "name": "Check for OAuth tokens",
+          "status": "pending",
+          "number": 9
+        },
+        {
+          "name": "Checkout .github and .agents folders",
+          "status": "pending",
+          "number": 10
+        },
+        {
+          "name": "Save agent config folders for base branch restoration",
+          "status": "pending",
+          "number": 11
+        },
+        {
+          "name": "Check workflow lock file",
+          "status": "pending",
+          "number": 12
+        },
+        {
+          "name": "Check compile-agentic version",
+          "status": "pending",
+          "number": 13
+        },
+        {
+          "name": "Log runtime features",
+          "status": "pending",
+          "number": 14
+        },
+        {
+          "name": "Create prompt with built-in context",
+          "status": "pending",
+          "number": 15
+        },
+        {
+          "name": "Interpolate variables and render templates",
+          "status": "pending",
+          "number": 16
+        },
+        {
+          "name": "Substitute placeholders",
+          "status": "pending",
+          "number": 17
+        },
+        {
+          "name": "Validate prompt placeholders",
+          "status": "pending",
+          "number": 18
+        },
+        {
+          "name": "Print prompt",
+          "status": "pending",
+          "number": 19
+        },
+        {
+          "name": "Upload info artifact",
+          "status": "pending",
+          "number": 20
+        },
+        {
+          "name": "Stage prompt files for artifact upload",
+          "status": "pending",
+          "number": 21
+        },
+        {
+          "name": "Upload activation artifact",
+          "status": "pending",
+          "number": 22
+        },
+        {
+          "name": "Post Setup Scripts",
+          "status": "pending",
+          "number": 44
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/appworldgap/agentic_workflows/check-runs/110444013432",
+      "labels": [
+        "ubuntu-slim"
+      ],
+      "runner_id": 1000029189,
+      "runner_name": "GitHub Actions 1000029189",
+      "runner_group_name": "GitHub Actions",
+      "workflow_name": "Instructions",
+      "head_branch": "add-workflow-repo-status-3288",
+      "Duration": 0
+    }
+  ],
+  "artifacts_list": null
+}
